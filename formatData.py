@@ -58,6 +58,7 @@ def formatdata():
     a = a[1::]
     
     a = [item.split("PART") for item in a]
+
     temp_refined_x = []
     temp_refined_y = []
     
